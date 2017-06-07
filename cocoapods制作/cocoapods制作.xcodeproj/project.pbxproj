@@ -15,6 +15,7 @@
 		871107711EE7F7C60053FB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8711076F1EE7F7C60053FB62 /* LaunchScreen.storyboard */; };
 		8711077C1EE7F7C60053FB62 /* cocoapods__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8711077B1EE7F7C60053FB62 /* cocoapods__Tests.m */; };
 		871107871EE7F7C60053FB62 /* cocoapods__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 871107861EE7F7C60053FB62 /* cocoapods__UITests.m */; };
+		871107971EE7FF2C0053FB62 /* xch_Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = 871107961EE7FF2C0053FB62 /* xch_Personal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		871107821EE7F7C60053FB62 /* cocoapods制作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cocoapods制作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		871107861EE7F7C60053FB62 /* cocoapods__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapods__UITests.m; sourceTree = "<group>"; };
 		871107881EE7F7C60053FB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		871107951EE7FF2C0053FB62 /* xch_Personal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xch_Personal.h; sourceTree = "<group>"; };
+		871107961EE7FF2C0053FB62 /* xch_Personal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xch_Personal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		871107601EE7F7C60053FB62 /* cocoapods制作 */ = {
 			isa = PBXGroup;
 			children = (
+				871107941EE7FF080053FB62 /* Class */,
 				871107641EE7F7C60053FB62 /* AppDelegate.h */,
 				871107651EE7F7C60053FB62 /* AppDelegate.m */,
 				871107671EE7F7C60053FB62 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				871107881EE7F7C60053FB62 /* Info.plist */,
 			);
 			path = "cocoapods制作UITests";
+			sourceTree = "<group>";
+		};
+		871107941EE7FF080053FB62 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				871107951EE7FF2C0053FB62 /* xch_Personal.h */,
+				871107961EE7FF2C0053FB62 /* xch_Personal.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +215,7 @@
 		871107561EE7F7C60053FB62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = xch;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = risenb_mac_002;
 				TargetAttributes = {
@@ -276,6 +290,7 @@
 				871107691EE7F7C60053FB62 /* ViewController.m in Sources */,
 				871107661EE7F7C60053FB62 /* AppDelegate.m in Sources */,
 				871107631EE7F7C60053FB62 /* main.m in Sources */,
+				871107971EE7FF2C0053FB62 /* xch_Personal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +522,7 @@
 				8711078D1EE7F7C60053FB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8711078E1EE7F7C60053FB62 /* Build configuration list for PBXNativeTarget "cocoapods制作Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +531,7 @@
 				871107901EE7F7C60053FB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		871107911EE7F7C60053FB62 /* Build configuration list for PBXNativeTarget "cocoapods制作UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				871107931EE7F7C60053FB62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
