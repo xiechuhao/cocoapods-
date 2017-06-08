@@ -10,6 +10,6 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "xiechuhao" => "1025745401@qq.com" }
 s.platform     = :ios, "5.0"
 s.source       = { :git => "https://github.com/xiechuhao/cocoapods-.git", :tag => s.version }
-s.source_files  = "Classes", "Classes/**/*.{h,m}"
+s.source_files  = "Class", "cocoapods制作/cocoapods制作/Class/**/*.{h,m}"
 s.requires_arc = true
 end
